@@ -40,7 +40,7 @@ GET
   - data: pesan kesalahan
 
 UPLOAD
-* TUJUAN: untuk mendapatkan isi file dengan menyebutkan nama file dalam parameter
+* TUJUAN: untuk mengupload sebuah file ke file server
 * PARAMETER:
   - PARAMETER1 : nama file
   - PARAMETER2 : isi file yang diminta (dalam bentuk base64)
@@ -52,7 +52,7 @@ UPLOAD
   - data: pesan kesalahan
 
 DELETE
-* TUJUAN: untuk mendapatkan isi file dengan menyebutkan nama file dalam parameter
+* TUJUAN: untuk menghapus file yang berada di file server
 * PARAMETER:
   - PARAMETER1 : nama file
 * RESULT:
